@@ -1,0 +1,31 @@
+{
+  "name": "rollup-plugin-injectnote",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "main": "./dist/index.cjs",
+  "scripts": {
+    "tsup": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/move132/rollup-plugin-injectnote.git"
+  },
+  "type": "module",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/move132/rollup-plugin-injectnote/issues"
+  },
+  "homepage": "https://github.com/move132/rollup-plugin-injectnote#readme",
+  "dependencies": {
+    "@dense-labs/eslint-config-ts": "^1.0.4",
+    "magic-string": "^0.30.0",
+    "rollup": "^3.24.0",
+    "rollup-plugin-clear": "^2.0.7",
+    "tsup": "^6.7.0",
+    "typescript": "^5.1.3"
+  }
+}
