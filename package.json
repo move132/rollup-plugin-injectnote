@@ -1,7 +1,7 @@
 {
   "name": "rollup-plugin-injectnote",
   "version": "1.0.2",
-  "description": "",
+  "description": "Solution to uglify causing invalid banner configuration",
   "author": "",
   "main": "./dist/index.js",
   "scripts": {
